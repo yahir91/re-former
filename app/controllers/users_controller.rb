@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class UsersController < ApplicationController
   def new
     @user = User.new
@@ -29,7 +27,7 @@ class UsersController < ApplicationController
       render :edit
     end
   end
-  
+
   private
 
   def user_params

@@ -1,24 +1,51 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Re-former
 
-Things you may want to cover:
+> In this project, we build a form using Ruby on Rails. The form accepta a username, email and password and it also an edit option.
 
-* Ruby version
+-Models (MVC)
+-Forms
+-Migrations
+-Views
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby 2.6
+- Ruby in Rails 5
+- Git Flow
+- SQL Lite 3
 
-* Database creation
+## Author
 
-* Database initialization
+👤 **Yahir Cardona**
 
-* How to run the test suite
+- Github: [@yahir91](https://github.com/yahir91)
+- Twitter: [@YahirCardona3](https://twitter.com/YahirCardona3)
+- Linkedin: [linkedin](https://www.linkedin.com/in/osmar-yahir-cardona-reyes-54b40b1a7/)
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Mauricio Santos**
 
-* Deployment instructions
+- Github: [@maosan132](https://github.com/maosan132)
+- Twitter: [@maosan132](https://twitter.com/maosan132)
+- Linkedin: [@maosan132](https://www.linkedin.com/in/mauricio-santos-a7292910/)
 
-* ...
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
