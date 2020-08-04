@@ -1,5 +1,6 @@
 
-<h1> Create Users Form </h1>
+
+<h1> Edit Users Form </h1>
 <!--
 <form action="/users" method="post" accept-charset="UTF-8" data-remote="true" >
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
@@ -39,15 +40,5 @@
 <%= f.label :password %><br>
   <%= f.password_field :password %><br>
 
-  <%= f.submit "Create User"%>
-  <% end %>
-
-  <% if @user.errors.any? %>
-    <div ><h3> list of errors</h3>
-     <ul>
-      <% @user.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
+  <%= f.submit "Update"%>
   <% end %>
