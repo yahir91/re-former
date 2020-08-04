@@ -30,16 +30,14 @@
   <%= submit_tag "Create User"%>
   <% end %>
 -->
-<%= form_for(@user) do %>
 
-  <%= label_tag(:username, "Username:") %><br>
-  <%= text_field_tag (:username) %><br>
+<%= form_for @user do |f| %>
+<%= f.label :username, "Your user name here" %><br>
+  <%= f.text_field :username %><br>
+<%= f.label :email %><br>
+  <%= f.email_field :email, placeholder: "example@example.com" %><br>
+<%= f.label :password %><br>
+  <%= f.password_field :password %><br>
 
-  <%= label_tag(:email, "Email:") %><br>
-  <%= email_field_tag (:email) %><br>
-
-  <%= label_tag(:password, "Password:") %><br>
-  <%= password_field_tag (:password) %><br>
-
-  <%= submit_tag "Create User"%>
+  <%= f.submit "Create User"%>
   <% end %>
